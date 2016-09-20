@@ -1,5 +1,6 @@
 # ObjCPPModules
 
-- modules are *not* enabled
-- Fyber SDK of the pre-modules era
-- ObjectiveC++ code
+- modules enabled: **YES**
+- the project uses modules: **NO**
+- Fyber SDK uses modules: **YES**
+- ObjectiveC++ code: **NO**
