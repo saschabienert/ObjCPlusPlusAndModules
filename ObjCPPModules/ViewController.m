@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#include "Rectangle.hpp"
+@import CPPFramework;
 
 @interface ViewController ()
 
@@ -19,10 +19,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 
-    // Create a C++ rectangle
-    Rectangle rect;
-    rect.set_size (3,4);
-    NSLog(@"Created a rectangle with size: %ix%i", rect.get_width(), rect.get_height());
+    // Create a ObjC rectangle
+    ObjCRectangle *rect = [[ObjCRectangle alloc] initWithWidth:3 height:4];
+    NSLog(@"Created a rectangle with size: %ix%i and area: %i", rect.width, rect.height, rect.area);
 }
 
 - (void)didReceiveMemoryWarning {

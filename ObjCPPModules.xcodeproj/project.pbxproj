@@ -7,30 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14423D3A1D914A8E00103E27 /* Rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14423D381D914A8E00103E27 /* Rectangle.cpp */; };
 		1490D2271D9146FD00757D63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1490D2261D9146FD00757D63 /* main.m */; };
 		1490D22A1D9146FD00757D63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1490D2291D9146FD00757D63 /* AppDelegate.m */; };
-		1490D22D1D9146FD00757D63 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1490D22C1D9146FD00757D63 /* ViewController.mm */; };
+		1490D22D1D9146FD00757D63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1490D22C1D9146FD00757D63 /* ViewController.m */; };
 		1490D2301D9146FD00757D63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1490D22E1D9146FD00757D63 /* Main.storyboard */; };
 		1490D2321D9146FD00757D63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1490D2311D9146FD00757D63 /* Assets.xcassets */; };
 		1490D2351D9146FD00757D63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1490D2331D9146FD00757D63 /* LaunchScreen.storyboard */; };
+		14AE5A8D1D91534100988F8A /* CPPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AE5A8C1D91534100988F8A /* CPPFramework.framework */; };
 		E23B55E87797FA18225D880A /* libPods-ObjCPPModules.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A896267D05B051ADBE209F5 /* libPods-ObjCPPModules.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A896267D05B051ADBE209F5 /* libPods-ObjCPPModules.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjCPPModules.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		14423D381D914A8E00103E27 /* Rectangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rectangle.cpp; sourceTree = "<group>"; };
-		14423D391D914A8E00103E27 /* Rectangle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Rectangle.hpp; sourceTree = "<group>"; };
 		1490D2221D9146FD00757D63 /* ObjCPPModules.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCPPModules.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1490D2261D9146FD00757D63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1490D2281D9146FD00757D63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1490D2291D9146FD00757D63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1490D22B1D9146FD00757D63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1490D22C1D9146FD00757D63 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		1490D22C1D9146FD00757D63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1490D22F1D9146FD00757D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1490D2311D9146FD00757D63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1490D2341D9146FD00757D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1490D2361D9146FD00757D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14AE5A8C1D91534100988F8A /* CPPFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CPPFramework.framework; path = "CPPFramework/build/Debug-iphoneos/CPPFramework.framework"; sourceTree = "<group>"; };
 		3D0AA364DEFC1C7529CDF787 /* Pods-ObjCPPModules.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCPPModules.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjCPPModules/Pods-ObjCPPModules.debug.xcconfig"; sourceTree = "<group>"; };
 		6849C25D928F2A0659544E63 /* Pods-ObjCPPModules.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCPPModules.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjCPPModules/Pods-ObjCPPModules.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -40,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14AE5A8D1D91534100988F8A /* CPPFramework.framework in Frameworks */,
 				E23B55E87797FA18225D880A /* libPods-ObjCPPModules.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,15 +47,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14423D371D914A8E00103E27 /* CPPClasses */ = {
-			isa = PBXGroup;
-			children = (
-				14423D381D914A8E00103E27 /* Rectangle.cpp */,
-				14423D391D914A8E00103E27 /* Rectangle.hpp */,
-			);
-			path = CPPClasses;
-			sourceTree = "<group>";
-		};
 		1490D2191D9146FD00757D63 = {
 			isa = PBXGroup;
 			children = (
@@ -77,11 +68,10 @@
 		1490D2241D9146FD00757D63 /* ObjCPPModules */ = {
 			isa = PBXGroup;
 			children = (
-				14423D371D914A8E00103E27 /* CPPClasses */,
 				1490D2281D9146FD00757D63 /* AppDelegate.h */,
 				1490D2291D9146FD00757D63 /* AppDelegate.m */,
 				1490D22B1D9146FD00757D63 /* ViewController.h */,
-				1490D22C1D9146FD00757D63 /* ViewController.mm */,
+				1490D22C1D9146FD00757D63 /* ViewController.m */,
 				1490D22E1D9146FD00757D63 /* Main.storyboard */,
 				1490D2311D9146FD00757D63 /* Assets.xcassets */,
 				1490D2331D9146FD00757D63 /* LaunchScreen.storyboard */,
@@ -102,6 +92,7 @@
 		71C0FA039D30B25F79B9CC09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				14AE5A8C1D91534100988F8A /* CPPFramework.framework */,
 				0A896267D05B051ADBE209F5 /* libPods-ObjCPPModules.a */,
 			);
 			name = Frameworks;
@@ -239,10 +230,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1490D22D1D9146FD00757D63 /* ViewController.mm in Sources */,
+				1490D22D1D9146FD00757D63 /* ViewController.m in Sources */,
 				1490D22A1D9146FD00757D63 /* AppDelegate.m in Sources */,
 				1490D2271D9146FD00757D63 /* main.m in Sources */,
-				14423D3A1D914A8E00103E27 /* Rectangle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P65VEJ9422;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ObjCPPModules/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -378,6 +369,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P65VEJ9422;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ObjCPPModules/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
