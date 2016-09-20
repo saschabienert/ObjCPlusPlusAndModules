@@ -18,14 +18,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    // Set the log level of the FyberSDK
-    [FyberSDK setLoggingLevel:FYBLogLevelDebug];
-
-    // Start the SDK with the appId and a security token that you can find in
-    // the Fyber Dashboard http://dashboard.fyber.com
-    FYBSDKOptions *options = [FYBSDKOptions optionsWithAppId:@"22912" securityToken:@"token"];
-    [FyberSDK startWithOptions:options];
-
     return YES;
 }
 
